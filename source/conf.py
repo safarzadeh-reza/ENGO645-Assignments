@@ -19,15 +19,13 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Geo-Python"
-copyright = "2016-2023, The Geo-Python team, Department of Geosciences and Geography, University of Helsinki"
-# author = 'David Whipp, Henrikki Tenkanen, Vuokko Heikinheimo, Håvard Aagesen'
-author = ""
+project = "ENGO645-Assignments"
+author = "Reza Safarzadeh"
 
 # The short X.Y version
-version = "2023"
+version = "2024"
 # The full version, including alpha/beta/rc tags
-release = "site"
+release = "ENGO645-Assignments"
 
 # Set documentation language
 language="en"
@@ -50,9 +48,6 @@ extensions = [
     "jupyter_sphinx",
 ]
 
-# Google Analytics ID to enable tracking of site traffic
-googleanalytics_id = "UA-105019106-1"
-googleanalytics_enabled = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -104,12 +99,12 @@ pygments_style = "sphinx"
 # =======================
 
 html_theme = "sphinx_book_theme"
-html_logo = "_static/geopython.png"
+html_logo = "img/banner/logo.png"
 html_title = ""
 
 html_theme_options = {
     # "external_links": [],
-    "repository_url": "https://github.com/geo-python/site/",
+    "repository_url": "https://github.com/safarzadeh-reza/ENGO645-Assignments/",
     "repository_branch": "master",
     "path_to_docs": "source/",
     # "twitter_url": "https://twitter.com/pythongis",
@@ -151,8 +146,8 @@ html_context = {
     "display_github": True,
     # Set the following variables to generate the resulting github URL for each page.
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
-    "github_user": "geo-python",
-    "github_repo": "site",
+    "github_user": "safarzadeh-reza",
+    "github_repo": "ENGO645-Assignments",
     "github_version": "master/",
     "conf_py_path": "/source/",
 }
@@ -160,7 +155,7 @@ html_context = {
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "Geo-Pythondoc"
+htmlhelp_basename = "engo645-Pythondoc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -192,9 +187,9 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "Geo-Python.tex",
-        "Geo-Python Documentation",
-        "H. Tenkanen and D. Whipp",
+        "engo645.tex",
+        "engo645 Documentation",
+        "R. Safarzadeh",
         "manual",
     ),
 ]
@@ -203,7 +198,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "geo-python", "Geo-Python Documentation", [author], 1)]
+man_pages = [(master_doc, "engo645", "Engo645 Documentation", [author], 1)]
 
 # Allow errors
 execution_allow_errors = True
