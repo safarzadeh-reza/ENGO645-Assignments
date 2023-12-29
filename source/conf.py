@@ -48,6 +48,9 @@ extensions = [
     "jupyter_sphinx",
 ]
 
+# Google Analytics ID to enable tracking of site traffic
+googleanalytics_id = "UA-105019106-1"
+googleanalytics_enabled = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
