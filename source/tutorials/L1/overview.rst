@@ -1,0 +1,33 @@
+Tutorial Overview
+=================
+
+This introductory tutorial session aims to familiarize you with essential tools and platforms crucial for this course. 
+You'll engage hands-on with Anaconda, a powerful environment manager 
+for Python, facilitating streamlined workflow. Additionally, we'll 
+explore Jupyter Lab, an interactive development environment tailored 
+for data analysis and visualization tasks. Moreover, you'll create a 
+GitHub account to comprehend its role in collaborative projects and 
+version control. Lastly, we'll delve into using Git for effective version control in 
+your assignments and projects.
+
+.. note::
+
+    There is a lot of material here but don't worry, you will become familiar with all of these things once we start working in practice.
+
+Learning goals
+--------------
+
+By the end of this tutorial, you'll be able to:
+
+- **Install Anaconda:** Successfully install Anaconda to manage Python environments and packages efficiently.
+- **Navigate Jupyter Lab:** Gain familiarity with Jupyter Lab's interface and functionalities.
+- **Create a GitHub Account:** Establish your GitHub account if you don't have it already.
+- **Git Version Control**: Learn how to utilize Git for version control, enabling you to track changes, manage revisions, and collaborate effectively. You'll specifically focus on tasks such as committing changes, creating branches, and pushing and pulling code to and from GitHub repositories.
+
+
+.. Tutorial  slides
+.. --------------
+
+.. .. admonition:: Lesson slides
+
+..     `Slides for Lecture 1 (PDF) <../../_static/01-Computers-and-programs.pdf>`__

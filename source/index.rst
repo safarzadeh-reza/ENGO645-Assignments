@@ -47,14 +47,9 @@ New materials for the Labs will be updated on this course page accordingly.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Week 1
+    :caption: Kick-off Assignment
 
-    lessons/L1/motivation
-    lessons/L1/overview
-    lessons/L1/course-environment-components
-    lessons/L1/discord-usage
-    notebooks/L1/a-taste-of-python.ipynb
-    notebooks/L1/gcp-1-variable-naming.ipynb
-    lessons/L1/exercise-1
+    tutorials/L1/overview
+    tutorials/L1/assignment-1
 
 
