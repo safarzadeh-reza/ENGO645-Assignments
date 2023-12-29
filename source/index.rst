@@ -35,7 +35,7 @@ However, the exercises you submit must must clearly reflect your own work (in sh
 
 .. admonition:: On-site teaching
 
-    Please note that the course is organized completely on site during the 2024 winter semester. However, lab sessions are combination on on site and online sessions.
+    Please note that the course is organized completely on site during the 2024 winter semester. However, lab sessions are combination of on site and online sessions.
     Online support will be available in the discussion board on course D2L or in online office hours.
 
 Course topics
