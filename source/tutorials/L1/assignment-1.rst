@@ -1,4 +1,4 @@
-Kick-off Assignment 1
+Tasks
 ==========
 
 .. admonition:: Deadline
