@@ -76,6 +76,9 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :caption: Kick-off Assignment
 
     tutorials/L1/overview
+    tutorials/L1/python_installation
     tutorials/L1/assignment-1
+
+
 
 
