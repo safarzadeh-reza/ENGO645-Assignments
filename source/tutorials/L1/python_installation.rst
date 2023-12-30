@@ -35,11 +35,19 @@ Following the instructions through the installation steps, you can choose the de
 Install Anaconda to a directory path that does not contain spaces or unicode characters.
 
 .. figure:: img/anaconda_1.png
+   :alt: Anaconda installer
+   :width: 700px
+
+   Anaconda installer
 
 Then Choose the defaul checkbox register Anaconda as your default Python. Don't check the "add Anaconda to your PATH environment"
 unless you have or you want to install different version of python in your system. Otherwise just use the default setting.
 
 .. figure:: img/anaconda_2.png
+   :alt: Anaconda installer setup
+   :width: 700px
+
+   Anaconda installer setup
 
 
 .. note::
@@ -49,6 +57,10 @@ unless you have or you want to install different version of python in your syste
 After installation has sucessfully completed, start an Anaconda NAvigator that has been newly added to your Start Menu to confirm that it has been installed successfuly on your system.
 
 .. figure:: img/anaconda_4.png
+   :alt: Successfullyinstalled Anaconda
+   :width: 700px
+
+   Successfullyinstalled Anaconda
 
 
 .. note::
@@ -57,6 +69,10 @@ Navigator will open if the installation was successful.
 If Navigator does not open, something went wrong with your installation.
 
 .. figure:: img/anaconda_5.png
+   :alt: Overview of Anaconda Navigator
+   :width: 700px
+
+   Overview of Anaconda Navigator
 
 
 
