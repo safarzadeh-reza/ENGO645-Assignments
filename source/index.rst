@@ -4,40 +4,66 @@
     :class: dark-light
 
 Welcome to Spatial Data Mining Lab 2024!
-===========================
+========================================
 
-The **Spatial Data Mining** course teaches you the basic concepts of data mining and applications on working with spatial data, and in the course Lab you will be training to apply data mining techniques on spatial data using the Python programming language in a format that is easy to learn and understand.
-Each exersice includes a tutorial with specific topic(s) where the aim is to gain skills and understanding how to solve common data-related tasks using Python.
+The **Spatial Data Mining (ENGO 645)** course introduces you to exploring spatial data and using it practically. 
+In these lab assignments, you'll learn to apply these techniques using Python in a way that's easy to understand.
 
 
 Lab format
 -------------
 
-The majority of the ENGO 645 course will be spent on-site in the classroom spatial data mining learning concepts and applications.
-The course consists of interactive lectures and bi-weekly assignments.
-The assignments will focus on developing basic programming skills using Python and applying those skills to various spatial analytical problems.
-Assignments will involve a brief tutorial introduction followed by topical computer-based tasks.
-For each assignment, you may be asked to submit the Python codes you have written, output figures and answers to related questions.
-You are encouraged to discuss and work together with other students while working on the assignments.
-However, the exercises you submit must must clearly reflect your own work (in short, don't copy/paste from other students).
+Each assignment focuses on specific topics from our lectures. 
+First, you'll have a tutorial where we'll guide you through solving specific problems using Python. 
+Then, there are tasks related to the tutorial that serve as your homework. 
+You'll need to write programs and submit them. 
+You may be asked to submit the Python codes you have written, output figures and answers to related questions.
+
+While it's great to work together with other students, make sure your submissions reflect your own work. 
+(in short, don't copy/paste from other students).
+
 
 .. admonition:: Teaching Details
     
-    - All regular classes will be conducted on-site throughout the semester.
-    - Our lab sessions will be a blend of on-site and online experiences, offering a hybrid approach to optimize your learning journey.
-    - For additional assistance or queries beyond class hours, you can engage in discussions and seek clarification on the course content through the discussion board on the course's D2L platform. Moreover, scheduled online office hours will be available for addressing any concerns or inquiries.
+    - All regular course lectures happen in the classroom.
+    - Our labs will mix in-person and online experiences. You'll find tutorials and resources online, but we'll also have some lab sessions in person for more interaction.
+    - Need help outside class? You can always post your questions or join discussions on the course's D2L platform.
+
+
+Grading
+-------
+
+Course grades will be given based on a scale from 0 to 5, following the standard grading system.
+
+Preliminary Grading Thresholds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- 90% of the total possible points or higher → Score of 5
+- 80% of the total possible points or higher → Score of 4
+- 70% of the total possible points or higher → Score of 3
+- 60% of the total possible points or higher → Score of 2
+- 50% of the total possible points or higher → Score of 1
+
+.. admonition:: Quick Note!
+    Make sure to submit your assignments on time. Generally, assignments are due within two weeks (we'll let you know the exact date and time for each assignment). If you need a bit more time, no worries! Late submissions within 24 hours will have a small -10% penalty, and within 48 hours, it's just a 20% reduction. But after 48 hours, sorry, no more submissions accepted, and you'll lose the marks for that assignment.
+
 
 
 General Goals
 -------------
 
-After completing this course, students will (1) understand basic programming concepts, (2) be able to write short programs, and (3) manipulate, analyze, and visualize scientific data using Python.
-Students will also learn to use version control (git) and online repositories (GitHub) for documenting and sharing their work.
-Themes for each week are listed below and will be completed during the semister.
+Throughout our lab assignments, here's what we'll dive into:
 
+1. You'll grasp fundamental Python programming concepts that'll empower you to solve real-world problems using short Python programs.
 
-The course runs for 13 weeks in the winter semester starting on the 8th of January 2024.
-New materials for the Labs will be updated on this course page accordingly.
+2. Practice the spatial data mining concepts taught in our lectures by manipulating, analyzing, and visualizing scientific data using Python.
+
+3. Learn the art of version control with Git and how to utilize online repositories like GitHub to document and share your fantastic work.
+
+Each week, we'll explore different themes aligned with the course's essence, completing them step by step over the semester.
+
+Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout the winter semester. Look out for updated materials right here on our lab page to keep our lab adventures fresh and engaging.
+
 
 +-------+---------------------------------------+
 | Week  | Topic                                 |

@@ -1,5 +1,13 @@
-Course environment
-==================
+Installing Python and Python packages
+=====================================
+
+
+
+.. note:: Do I need to install anything?
+
+    You can complete all assignments without installing anything on your computer. 
+    The code of each assignment can be completed and run interactively in the web browser based platforms such as Google Colab.
+
 
 During this course, we will use different tools and applications for programming and communications:
 
