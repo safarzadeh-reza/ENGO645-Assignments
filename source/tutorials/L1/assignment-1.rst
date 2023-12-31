@@ -1,8 +1,7 @@
 Tasks
 ==========
 
-.. admonition:: Deadline
-
+.. important::
     Please complete this assignment **by the end of January 21 (11:59 pm on 21 January 2024)**.
 
 The assignment for this week has three parts.
