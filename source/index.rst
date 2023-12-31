@@ -1,6 +1,6 @@
 
 
-.. image:: img/banner/logo_2.png
+.. image:: img/banner/logo_3.png
     :class: dark-light
 
 Welcome to Spatial Data Mining Lab 2024!
