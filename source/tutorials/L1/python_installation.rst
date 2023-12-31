@@ -9,7 +9,7 @@ During this tutorial, we will use the conda package management system,
 and below you will find installation instructions of Anaconda distribution on different operating systems.
 
 
-.. note:: ***Do I need to install anything?***
+.. note:: **Do I need to install anything?**
 
     You can complete all assignments without installing anything on your computer. 
     The code of each assignment can be completed and run interactively in the web browser based platforms such as Google Colab.
@@ -115,12 +115,12 @@ This opens a new tab titled "Untitled.ipynb" where you can start working.
 
 
 The notebook consists of cells. Click on the first empty cell and change its type to "Code" using the dropdown menu in the toolbar (it defaults to "Code" type).
-Try entering a simple Python command like print("Hello, Jupyter Lab!") in the cell.
+Try entering a simple Python command like :code:`print("Hello World!")` in the cell.
 
 
 **Running Code Cells:**
 
-To execute the code in the cell, press ``Shift + Enter``. You'll see the output displayed just below the cell.
+To execute the code in the cell, press :kbd:`Shift` + :kbd:`Enter`. You'll see the output displayed just below the cell.
 
 .. figure:: img/jupyterlab_code_cell.png
    :alt: A Jupyter Notebook open in JupyterLab
@@ -141,7 +141,7 @@ Try entering Markdown syntax, such as ``# This is a heading`` or ``**Bold text**
    Markdown in Jupyter Notebook
 
 
-Save your work by clicking "File" > "Save Notebook" or using the shortcut ``Ctrl + S``.
+Save your work by clicking "File" > "Save Notebook" or using the shortcut :kbd:`ctrl` + :kbd:`s`.
 
 
 
