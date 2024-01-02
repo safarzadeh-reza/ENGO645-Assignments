@@ -33,7 +33,7 @@ While it's great to work together with other students, make sure your submission
 Grading
 -------
 
-Course grades will be given based on a scale from 0 to 5, following the standard grading system.
+Assignments grades will be given based on a scale from 0 to 5, following the standard grading system.
 
 Preliminary Grading Thresholds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -44,7 +44,7 @@ Preliminary Grading Thresholds
 - 60% of the total possible points or higher → Score of 2
 - 50% of the total possible points or higher → Score of 1
 
-.. admonition:: Quick Note!
+.. admonition:: Quick Note
     Make sure to submit your assignments on time. Generally, assignments are due within two weeks (we'll let you know the exact date and time for each assignment). If you need a bit more time, no worries! Late submissions within 24 hours will have a small -10% penalty, and within 48 hours, it's just a 20% reduction. But after 48 hours, sorry, no more submissions accepted, and you'll lose the marks for that assignment.
 
 
