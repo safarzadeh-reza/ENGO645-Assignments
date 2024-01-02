@@ -19,8 +19,9 @@ Then, there are tasks related to the tutorial that serve as your homework.
 You'll need to write programs and submit them. 
 You may be asked to submit the Python codes you have written, output figures and answers to related questions.
 
-While it's great to work together with other students, make sure your submissions reflect your own work. 
-(in short, don't copy/paste from other students).
+.. important::
+    While it's great to work together with other students, make sure your submissions reflect your own work. 
+    (in short, don't copy/paste from other students).
 
 
 .. admonition:: Teaching Details
@@ -44,9 +45,11 @@ Preliminary Grading Thresholds
 - 60% of the total possible points or higher → Score of 2
 - 50% of the total possible points or higher → Score of 1
 
-.. admonition:: Quick Note
-    Make sure to submit your assignments on time. Generally, assignments are due within two weeks (we'll let you know the exact date and time for each assignment). If you need a bit more time, no worries! Late submissions within 24 hours will have a small -10% penalty, and within 48 hours, it's just a 20% reduction. But after 48 hours, sorry, no more submissions accepted, and you'll lose the marks for that assignment.
 
+.. note::
+    Make sure to submit your assignments on time. Generally, assignments are due within two weeks (we'll let you know the exact date and time for each assignment). 
+    If you need a bit more time, no worries! Late submissions within 24 hours will have a small -10% penalty, and within 48 hours, it's just a 20% reduction. 
+    But after 48 hours, sorry, no more submissions accepted, and you'll lose the marks for that assignment.
 
 
 General Goals
