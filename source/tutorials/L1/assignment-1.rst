@@ -58,7 +58,7 @@ Part 3 - Cooking up some Python
 
 .. admonition:: Start your assignment
 
-    **You can start working on your copy of assignment 1 by** `accepting the GitHub Classroom assignment <https://classroom.github.com/a/vwOAq8qb>`__.
+    **You can start working on your copy of assignment 1 by** `accepting the GitHub Classroom assignment <https://classroom.github.com/a/ea4XxuXn>`__.
 
 
 1. Start the coding assignment by accepting the GitHub Classroom assignment (click on the link above).
