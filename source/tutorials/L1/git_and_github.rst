@@ -117,7 +117,7 @@ The idea is, that you can have a (sometimes messy) working directory, and by usi
 Git which files to include in the next committed snapshot. Finally, the command ``git commit`` records a permanent snapshot of the staged changes. 
 `Read more about basic snapshotting <https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Basic-Snapshotting>`__.
 
-.. figure:: img/version_control_concepts02.png
+.. figure:: img/version_control_concepts01.png
     
 
     Version control steps using Git (adapted from `Data Science: A First Introduction <https://datasciencebook.ca/version-control.html#overview-12>`__).
