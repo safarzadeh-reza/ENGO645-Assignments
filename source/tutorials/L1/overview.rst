@@ -16,11 +16,12 @@ Learning goals
 
 By the end of this tutorial, you'll be able to:
 
-- **Install Anaconda:** Successfully install Anaconda to manage Python environments and packages efficiently.
-- **Navigate Jupyter Lab:** Gain familiarity with Jupyter Lab's interface and functionalities.
-- **Create a GitHub Account:** Establish your GitHub account if you don't have it already.
-- **Git Version Control**: Learn how to utilize Git for version control, enabling you to track changes, manage revisions, and collaborate effectively. You'll specifically focus on tasks such as committing changes, creating branches, and pushing and pulling code to and from GitHub repositories.
-
+- Successfully install Anaconda to manage Python environments and packages efficiently.
+- Gain familiarity with Jupyter Lab's interface and functionalities.
+- Understand the basics of version control
+- Establish your GitHub account if you don't have it already.
+- Use Git and GitHub to record changes to your files
+- Use Jupyter notebooks for writing and documenting your code
 
 .. Tutorial  slides
 .. --------------

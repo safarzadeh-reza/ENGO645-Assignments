@@ -1,60 +1,82 @@
 Git and GitHub
 ==============
 
-What is version control?
-What is Git?
-What is GitHub?
-Basic vocabulary
+.. What is version control?
+.. What is Git?
+.. What is GitHub?
+.. Basic vocabulary
 
-Key concepts
-create github account
-JupyterLab git plugin
-Git from the command line
+.. Key concepts
+.. create github account
+.. JupyterLab git plugin
+.. Git from the command line
 
-Using Classroom for Github
-
-
-
-This tutorial covers the very basics of `version control <https://en.wikipedia.org/wiki/Version_control>`__ using `GitHub <https://github.com/>`__.
+.. Using Classroom for Github
 
 
 
-.. admonition:: Git
+This tutorial covers the very basics of `version control <https://en.wikipedia.org/wiki/Version_control>`__ using `Git <https://en.wikipedia.org/wiki/Git_(software)>`__, `GitHub <https://github.com/>`__, and JupyterLab git plugin.
+
+
+Sources
+-------
+
+These materials have been adapted from:
+- `Version Control with Git <http://swcarpentry.github.io/git-novice/>`__
+- `GitHub Education Campus Advisors resources <https://github.com/Campus-Advisors>`_
+- `Git documentation <https://git-scm.com/about/>`__
+- `GitHub Campus Advisor materials <https://education.github.com/teachers/advisors>`__
+
+
+
+
+What is version control and why should I use it?
+------------------------------------------------
+Imagine your code as an evolving storybook, where every line written is a new chapter. 
+Version control is like a magic quill that records every change, every plot twist, and character development in this coding adventure.
+Version control systems are like time-traveling wizards for your documents! 
+They start with a magical base version and then keep a record of every change you make along the way. 
+It's like rewinding your favorite movie, starting from the beginning and watching each cool edit you've made until you reach your latest masterpiece!
+
+
+.. figure:: img/version_control_02.png
+   :alt: Motivation for version control
+
+   Source: "Piled Higher and Deeper" by Jorge Cham, http://www.phdcomics.com
+
+
+**Why Should We Use Version Control?**
+
+- **History Keeper:** Version control systems, like Git, maintain a detailed history of changes made to your code. It's a time machine allowing you to revisit any point in your project's history.
+- **Undo & Redo Magic:** Made a mistake? Version control lets you rewind! It's like an "Undo" button for your code, helping you revert to a previous state effortlessly.
+- **Collaboration Made Easy:** Imagine working on a group project without version control—it's like writing a book together without being able to share drafts! Version control makes collaborating a breeze, allowing multiple people to work on the same codebase without chaos.
+- **Experimentation & Branching:** Want to experiment with new features without breaking everything? Version control introduces branching—creating alternative storylines for your code, exploring new ideas without affecting the main plot.
+- **Backup & Safety Net:** Your code is valuable! Version control provides a safety net by keeping your code stored safely, like a backup that you can always rely on.
+
+
+
+.. admonition:: What is Git?
 
     `Git <https://en.wikipedia.org/wiki/Git_(software)>`__ is a version control software that is used to track and store changes in your files (often source code for programs) without losing the history of past changes. 
     Files in Git are stored in a repository, which you can simply think of as a directory containing files (or other directories) related to a single 'project'. Git is widely used by professionals to keep track of what they’ve done and to collaborate with other people.
 
 
 
+What is GitHub?
+---------------
 
-.. admonition:: GitHub
-
-    `GitHub <https://github.com/>`__ is a web based Git repository hosting service and social network. 
-    It is the largest online storage space of collaborative works that exists in the world. 
-    It is a place where you can share your code openly to the entire world or alternatively only to your collaborators working on the same project. 
-    GitHub provides a nice web-interface to your files that is easy to use. 
-    It is a nice way for exploring the codes and documentation or e.g., teaching materials such as those in our course. 
+.. figure:: img/github_logo.png
+   :alt: GitHub Logo
 
 
+`GitHub <https://github.com/>`__ is a web based Git repository hosting service and social network. 
+GitHub is the largest online storage space where coders gather, share ideas, and collaborate on projects. 
+It's more than just version control; it's a hub for open-source contributions, a portfolio showcase, and a networking paradise for coding enthusiasts worldwide.
+GitHub provides a nice web-interface to your files that is easy to use. 
 
 
-Both Git and GitHub provide many more features than the ones mentioned here, but for now we are happy to understand the basic idea of what they are.
 
-These materials have been adapted for the Geo-Python course from the GitHub Education Campus Advisors resources, a
 
-More resources: 
-- `GitHub Education Campus Advisors resources <https://github.com/Campus-Advisors>`_
-- `Git documentation <https://git-scm.com/about/>`__.
-
-After this lesson you should be able to do these steps in JupyterLab using git and the JupyterLab git-plugin:
-
-1. `Clone a repository from GitHub`_
-2. `Add changes`_
-3. `Commit changes`_
-4. `Push changes to GitHub`_
-
-These steps can be completed either using the `JupyterLab git plugin`_ (we recommend this option for beginners) or using
-`Git from the command line`_.
 
 Key concepts
 ------------
@@ -390,3 +412,16 @@ Remember that you can always download your files on your own computer, and uploa
 
     Source: https://xkcd.com/1597/
 
+
+
+Summary
+-------
+After this lesson you should be able to do these steps in JupyterLab using git and the JupyterLab git-plugin:
+
+1. `Clone a repository from GitHub`_
+2. `Add changes`_
+3. `Commit changes`_
+4. `Push changes to GitHub`_
+
+These steps can be completed either using the `JupyterLab git plugin`_ (we recommend this option for beginners) or using
+`Git from the command line`_.
