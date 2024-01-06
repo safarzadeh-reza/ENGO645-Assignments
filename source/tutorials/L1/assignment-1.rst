@@ -13,17 +13,11 @@ Finally, you will **cook up some Python** using the skills you learned during th
 Part 1 - Python Environment Setup and GitHub Account Creation
 -------------------------------------------------------------
 
-1. **Install Anaconda:**
-  
-  Follow the provided tutorial steps to install Anaconda on your computer. Ensure it's successfully installed and set up according to the tutorial guidelines.
+1. Install Anaconda: Follow the provided tutorial steps to install Anaconda on your computer. Ensure it's successfully installed and set up according to the tutorial guidelines.
 
-2. **Create a GitHub Account:**
-  
-  Head over to GitHub's website and sign up for a new account if you haven't already. Fill in the necessary details and create your account.
+2. Create a GitHub Account: Head over to GitHub's website and sign up for a new account if you haven't already. Fill in the necessary details and create your account.
 
-3. **Generate a Personal Access Token:**
-  
-  Within your GitHub account settings, navigate to the "Developer Settings" and create a personal access token. Follow the tutorial's steps to generate the token, ensuring you grant it the required permissions.
+3. Generate a Personal Access Token: Within your GitHub account settings, navigate to the "Developer Settings" and create a personal access token. Follow the tutorial's steps to generate the token, ensuring you grant it the required permissions.
 
 
 Part 2 - D2L Setup and Dropbox Submission
