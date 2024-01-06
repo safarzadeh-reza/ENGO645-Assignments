@@ -14,7 +14,7 @@ Part 1 - Python Environment Setup and GitHub Account Creation
 -------------------------------------------------------------
 
 1. **Install Anaconda:**
-    - Follow the provided tutorial steps to install Anaconda on your computer. Ensure it's successfully installed and set up according to the tutorial guidelines.
+   - Follow the provided tutorial steps to install Anaconda on your computer. Ensure it's successfully installed and set up according to the tutorial guidelines.
 
 2. **Create a GitHub Account:**
    - Head over to GitHub's website and sign up for a new account if you haven't already. Fill in the necessary details and create your account.
