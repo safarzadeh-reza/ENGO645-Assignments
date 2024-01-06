@@ -104,17 +104,19 @@ You can maintain your files on your local computer, creating a dedicated local r
 In general, it is recommended that each project, library or discrete piece of software should have it's own repository.
 For example, each assignment in this course has it's own repository on GitHub.
 
-During this course, we often start by cloning an existing repository from GitHub
-to our own computer using ``git clone``. Using ``git pull`` we can fetch (and merge) new changes from GitHub,
-and ``git push`` publishes our local changes to GitHub. 
+Cloning a Repository:
+~~~~~~~~~~~~~~~~~~~~~
+We begin by duplicating an existing repository from GitHub onto our computer with git clone. 
+Think of it as getting your hands on a unique copy of our assignment project. 
+This copy is yours to explore, work on, and personalize according to your coding style and ideas.
 
-`Read more about sharing and updating
-Git projects <https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Sharing-and-Updating-Projects>`__.
-
-The version control history consists of snapshots of all the files in our project.
+Publishing Changes:
+~~~~~~~~~~~~~~~~~~~
 In order record changes to our files, we first add changes to a so called staging area (using the command ``git add``). 
-The idea is, that you can have a (sometimes messy) working directory, and by using ``git add`` you tell
-Git which files to include in the next committed snapshot. Finally, the command ``git commit`` records a permanent snapshot of the staged changes. 
+The idea is, that you can have a (sometimes messy) working directory, and by using ``git add`` you tell Git which files to include in the next committed snapshot. 
+Then, the command ``git commit`` records a permanent snapshot of the staged changes.
+Once you have made one or more commits that you want to share with your collaborators, you need to push (i.e., send) those commits back to GitHub. 
+This updates the history in the remote repository (i.e., GitHub) to match what you have in your local repository. 
 `Read more about basic snapshotting <https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Basic-Snapshotting>`__.
 
 .. figure:: img/version_control_concepts01.png
@@ -123,10 +125,25 @@ Git which files to include in the next committed snapshot. Finally, the command 
     Version control steps using Git (adapted from `Data Science: A First Introduction <https://datasciencebook.ca/version-control.html#overview-12>`__).
 
 
+Syncing Changes:
+~~~~~~~~~~~~~~~~
+If you are working on a project with collaborators, they will also be making changes to files.
+To obtain the new changes from the remote repository on GitHub, you will need to pull those changes to your own local repository. 
+By pulling changes, you synchronize your local repository to what is present on GitHub.
+
+
 .. figure:: img/version_control_concepts02.png
     
 
     Update your Git project local repository using pull commands. Always pull before you push (especially when working in a shared project)!
+
+.. note::
+
+    During this course, we often start by cloning an existing repository from GitHub
+    to our own computer using ``git clone``. Using ``git pull`` we can fetch (and merge) new changes from GitHub,
+    and ``git push`` publishes our local changes to GitHub. 
+
+    `Read more about sharing and updating Git projects <https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Sharing-and-Updating-Projects>`__.
 
 
 Basic vocabulary
