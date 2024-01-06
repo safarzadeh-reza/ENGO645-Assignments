@@ -121,7 +121,6 @@ This updates the history in the remote repository (i.e., GitHub) to match what y
 
 .. figure:: img/version_control_concepts01.png
     
-
     Version control steps using Git (adapted from `Data Science: A First Introduction <https://datasciencebook.ca/version-control.html#overview-12>`__).
 
 
@@ -134,7 +133,6 @@ By pulling changes, you synchronize your local repository to what is present on 
 
 .. figure:: img/version_control_concepts02.png
     
-
     Update your Git project local repository using pull commands. Always pull before you push (especially when working in a shared project)!
 
 .. note::
@@ -147,7 +145,7 @@ By pulling changes, you synchronize your local repository to what is present on 
 
 
 Basic vocabulary
-----------------
+~~~~~~~~~~~~~~~~
 
 Here are a few basic terms that are used often when using git and GitHub (not exhaustive).
 
@@ -183,12 +181,45 @@ Here are a few basic terms that are used often when using git and GitHub (not ex
 
 
 
-
 Preparations
 ------------
 
-Let's go through the basics of using Git. We will use Exercise-1 repository created last week to practice.
-Before we start, open a new JupyterLab session if you do not already have one open.
+
+Let's go through the basics of using Git. We are going to see how we can create a github account and create a new repository in GitHub.
+Then we are going to see how we can clone a repository from GitHub to our JupyterLab session, and how we can make changes to the repository and push them to GitHub.
+
+
+
+Create a GitHub account
+~~~~~~~~~~~~~~~~~~~~~~~
+
+You will need an account for `GitHub <https://github.com/>`__ to follow the rest of the steps.
+
+- Go to `https://github.com <https://github.com/>`__ and follow the “Sign up” link at the top-right of the window.
+- Follow the instructions to create an account.
+- Verify your email address with GitHub.
+- Configure multifactor authentication.
+
+
+
+Creating a remote repository on GitHub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once you have logged into your account, you can create a new repository to host your project by clicking on the “+” icon in the upper right-hand corner, and then on :kbd:`New Repository`.
+
+.. figure:: img/github_01.png
+    
+    New repositories on GitHub 
+
+
+
+
+
+
+
+
+
+
 
 You can find instructions for using Binder and CSC Notebooks in :doc:`Lesson 1 materials <../../L1/course-environment-components>`.
 
