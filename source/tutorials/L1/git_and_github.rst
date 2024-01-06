@@ -70,6 +70,7 @@ What is GitHub?
 
 .. figure:: img/github_logo.png
    :alt: GitHub Logo
+   :width: 400px
 
 
 `GitHub <https://github.com/>`__ is a web based Git repository hosting service and social network. 
@@ -212,28 +213,23 @@ Once you have logged into your account, you can create a new repository to host 
     New repositories on GitHub 
 
 
+.. figure:: img/github_02.png
+    
+    Repository configuration for a new project on GitHub 
+
+
+Repositories can be set up with a variety of configurations, including a name, optional description, and the inclusion (or not) of several template files. 
+One of the most important configuration items to choose is the visibility to the outside world, either public or private. 
+Public repositories can be viewed by anyone. Private repositories can be viewed by only you. 
+Both public and private repositories are only editable by you, but you can change that by giving access to other collaborators.
 
 
 
+Generating a GitHub personal access token
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-
-
-
-You can find instructions for using Binder and CSC Notebooks in :doc:`Lesson 1 materials <../../L1/course-environment-components>`.
-
-.. image:: https://img.shields.io/badge/launch-binder-red.svg
-   :target: https://mybinder.org/v2/gh/Geo-Python-2023/Binder/master?urlpath=lab
-
-.. image:: https://img.shields.io/badge/launch-CSC%20notebook-blue.svg
-   :target: https://notebooks.csc.fi/
-
-
-Create a Personal Access Token
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Before we start cloning our repository from GitHub, we need to create a Personal Access Token for us to be able to interact with GitHub. We will go through the basic setup here, but you can find more detailed instructions in the `GitHub documentation <https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token>`_.
+Before we start cloning our repository from GitHub, we need to create a Personal Access Token for us to be able to interact with GitHub. 
+We will go through the basic setup here, but you can find more detailed instructions in the `GitHub documentation <https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token>`_.
 
 #. If you have not already verified your email address, make sure to do so in your GitHub settings (`GitHub email verification <https://docs.github.com/en/get-started/signing-up-for-github/verifying-your-email-address>`_). On GitHub, go into your settings.
 
