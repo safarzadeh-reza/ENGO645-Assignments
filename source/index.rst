@@ -81,7 +81,7 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     tutorials/L1/overview
     tutorials/L1/python_installation
     tutorials/L1/git_and_github
-    tutorials/L1/preparation
+    tutorials/L1/prepration
     tutorials/L1/assignment-1
 
 
