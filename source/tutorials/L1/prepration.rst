@@ -85,13 +85,13 @@ If you have not already verified your email address, make sure to do so in your 
 #. We can then give the token an expiration date. You can choose the duration you prefer, but it would be best to set it to at least the end of the year.
 
    .. image:: img/access_token_01.png
-      :width: 500
+      :width: 700
 
 #. Now we need to set the permissions, or scopes, that our token is granted. We are going to need it to be able to access and change our exercise repositories. For that, we can select the check boxes for **repo**, **admin:repo_hook**, and **delete_repo**.
 
 
    .. image:: img/access_token_02.png
-      :width: 300
+      :width: 600
 
 
 #. At this point we can click the **Generate token** button to create and see our token.
@@ -101,7 +101,7 @@ If you have not already verified your email address, make sure to do so in your 
    - Open a text document and copy and paste your Personal access token in a text file, because for now we are going to use it like this, and we will later see how we can cache it so that we don't need to copy and paste it every time we need it. If your access token is ever lost, you can just follow the steps above again to create a new one.
 
    .. image:: img/access_token_03.png
-      :width: 300
+      :width: 600
 
 Now that we have created a personal access token, the next thing we need is the URL of your exercise repository from GitHub. **Go to** https://github.com/geo-python-2023/ **and navigate to your personal Exercise-1 repository.**
 
