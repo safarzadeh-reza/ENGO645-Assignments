@@ -121,8 +121,7 @@ JupyterLab git plugin
 Clone a repository from GitHub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-During this course, we will most often start working with the exercises using an existing repository from GitHub.
-In order to get a copy of the exercise repository on our own computer (or the cloud computer), we need to ``clone`` it.
+In order to get a copy of your remote repository on our own computer (or the cloud computer), you need to ``clone`` it.
 
 To install the Git extension in your JupyterLab environment, follow these steps:
 
@@ -132,28 +131,51 @@ To install the Git extension in your JupyterLab environment, follow these steps:
    
    ::
    
-      pip install --upgrade jupyterlab-git
+      pip install --upgrade jupyterlab jupyterlab-git
       jupyter lab build
 
 
+or with conda:
 
-Navigate to the **my-work** folder in JupyterLab, create a new folder inside it called **assignments**, and double-click to enter that folder. 
+   ::
+   
+      conda install -c conda-forge jupyterlab jupyterlab-git
+      jupyter lab build
+
+When you successfully installed the Git extension for JupyterLab, you should see a new Git icon in the left sidebar:
+
+
+.. figure:: img/jupyter_git_02.png
+    :width: 500
+
+
+Check here for more information on installing `JupyterLab Git extension <https://github.com/jupyterlab/jupyterlab-git>`__.
+
+After installing the extension, navigate to the **my-work** folder in JupyterLab and create a new folder inside it called **assignments**, and double-click to enter that folder. 
 Next, activate the git-plugin. The plugin will tell you that **assignments** is not a Git repository and gives you some options.
 
-In our case, we want to **Clone a Repository**:
+In our case, we want to **Clone a Repository**. Go ahead and paste your exercise repository URL into the pop-up window:
 
-.. figure:: img/git-plugin-start-cloning.png
-
-Go ahead and paste your exercise repository URL into the pop-up window:
-
-.. figure:: img/git-plugin-clone.png
+.. figure:: img/clone-notebooks.png
 
 On the command line this action is equivalent to the ``git clone`` command.
+
 
 .. note::
 
     **Pay attention to which folder you are in!** Git will create a new folder under the folder you
     are located in when cloning a repo.
+
+On the file browser tab, you will now see a folder for the repository. Inside this folder will be all the files that existed on GitHub.
+
+.. figure:: img/jupyter_git_03.png
+    width: 500
+
+Now you can create a new notebook or open an existing one and start working on the assignments!
+
+.. note::
+
+    During this course, we will most often start working with the assignments using an existing repository on GitHub which contains the assignment instructions and some starter code.
 
 
 Credentials
