@@ -148,7 +148,7 @@ When you successfully installed the Git extension for JupyterLab, you should see
 
 
 .. figure:: img/jupyter_git_02.png
-    :width: 500
+    :width: 700
 
 
 Check here for more information on installing `JupyterLab Git extension <https://github.com/jupyterlab/jupyterlab-git>`__.
@@ -174,7 +174,7 @@ In our case, we want to **Clone a Repository**. Go ahead and paste your exercise
 On the file browser tab, you will now see a folder for the repository. Inside this folder will be all the files that existed on GitHub.
 
 .. figure:: img/jupyter_git_03.png
-    :width: 500
+    :width: 700
 
 
 Credentials
@@ -207,14 +207,14 @@ Add changes
 
 Let's start making changes in the repository! Open the ``README.md`` file and make some edits. For example, add some text at the end of the file:
 
-.. figure:: img/jupyter_git_04.png
+.. figure:: img/jupyter_git_05.png
     :width: 700
 
     Edit a file in JupyterLab
 
 Or you can add a new python notebook to the repository:
 
-.. figure:: img/jupyter_git_05.png
+.. figure:: img/jupyter_git_04.png
     :width: 700
 
     Create a new notebook in JupyterLab
@@ -222,7 +222,7 @@ Or you can add a new python notebook to the repository:
 After saving your changes, check the status of the repository. You should see ``README.md`` listed under **Changed** files, and the new notebook under **Untracked** files:
 
 .. figure:: img/jupyter_git_06.png
-    :width: 350
+    :width: 500
 
     Changes visible in the Git plugin
 
