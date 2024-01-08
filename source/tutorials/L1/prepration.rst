@@ -21,7 +21,6 @@ These materials have been adapted from:
 
 
 
-
 Create a GitHub account
 -----------------------
 
@@ -57,16 +56,23 @@ Both public and private repositories are only editable by you, but you can chang
 
 
 Generating a GitHub personal access token
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Before we start cloning our repository from GitHub, we need to create a Personal Access Token for us to be able to interact with GitHub. 
-We will go through the basic setup here, but you can find more detailed instructions in the `GitHub documentation <https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token>`_.
+To send and retrieve work between your local repository in your computer and the remote repository on GitHub, 
+you will need to authenticate with GitHub to prove you have the required permission. 
+One of the easiest methods to do this is by using a "personal access token". 
+Think of it as your special key to unlock the door between your local and online repositories. It makes the whole process smoother and secure.
+There are several methods to do this, using a personal access token is the easiest way to do this.
+We'll cover the basics of setting this up here, but for more detailed steps and information, you can explore the `GitHub documentation <https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token>`__.
 
-#. If you have not already verified your email address, make sure to do so in your GitHub settings (`GitHub email verification <https://docs.github.com/en/get-started/signing-up-for-github/verifying-your-email-address>`_). On GitHub, go into your settings.
+.. note::
 
-   .. image:: https://docs.github.com/assets/images/help/settings/userbar-account-settings.png
-      :width: 200
+    A personal access token is like a password—so keep it a secret!
 
+
+If you have not already verified your email address, make sure to do so in your GitHub settings (`GitHub email verification <https://docs.github.com/en/get-started/signing-up-for-github/verifying-your-email-address>`__). 
+
+#. To generate a personal access token, you must navigate into your settings on GitHub. To do this, click on your profile picture in the top right corner of the screen and then click on **Settings**.
 #. Click on **Developer settings** in the left sidebar.
 #. Click on **Personal access tokens**.
 #. Click on **Tokens (classic)**.
@@ -74,26 +80,28 @@ We will go through the basic setup here, but you can find more detailed instruct
 
    - If you are using two-factor authentication, you may be prompted to enter an authentication code at this point.
  
-#. We can start by giving our token a name in under **Note**.
-
-   .. image:: img/token_name.png
-      :width: 500
+#. We can start by giving our token a name in under **Note** to describe the purpose for our personal access token.
 
 #. We can then give the token an expiration date. You can choose the duration you prefer, but it would be best to set it to at least the end of the year.
 
-   .. image:: img/token_expiration.png
-      :width: 300
+   .. image:: img/access_token_01.png
+      :width: 500
 
 #. Now we need to set the permissions, or scopes, that our token is granted. We are going to need it to be able to access and change our exercise repositories. For that, we can select the check boxes for **repo**, **admin:repo_hook**, and **delete_repo**.
 
-   .. image:: img/token_scopes.png
-      :width: 500
+
+   .. image:: img/access_token_02.png
+      :width: 300
+
 
 #. At this point we can click the **Generate token** button to create and see our token.
 
 #. We are then presented with our Personal access token, click the copy button to copy it to your clipboard and then paste it into a text file in the JupyterLab session.
 
    - Open a text document and copy and paste your Personal access token in a text file, because for now we are going to use it like this, and we will later see how we can cache it so that we don't need to copy and paste it every time we need it. If your access token is ever lost, you can just follow the steps above again to create a new one.
+
+   .. image:: img/access_token_03.png
+      :width: 300
 
 Now that we have created a personal access token, the next thing we need is the URL of your exercise repository from GitHub. **Go to** https://github.com/geo-python-2023/ **and navigate to your personal Exercise-1 repository.**
 
