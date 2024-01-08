@@ -103,14 +103,14 @@ If you have not already verified your email address, make sure to do so in your 
    .. image:: img/access_token_03.png
       :width: 600
 
-Now that we have created a personal access token, the next thing we need is the URL of your exercise repository from GitHub. **Go to** https://github.com/geo-python-2023/ **and navigate to your personal Exercise-1 repository.**
+Now that we have created a personal access token, the next thing we need is the URL of your personal repository (that you learned how to create in previous section) from GitHub. 
 
 On GitHub, find the button **Code** and copy the url under *HTTPS*.
 
 The URL looks something like this:
-https://github.com/Geo-Python-2023/exercise-1-davewhipp.git but with your own username or team name.
+``https://github.com/safarzadeh-reza/engo645_test_repo.git`` but with your own username and repo name.
 
-.. figure:: img/git-copy-url.png
+.. figure:: img/access_token_04.png
 
 
 JupyterLab git plugin
