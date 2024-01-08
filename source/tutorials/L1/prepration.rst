@@ -158,7 +158,10 @@ In our case, we want to **Clone a Repository**. Go ahead and paste your exercise
 
 .. figure:: img/clone-notebooks.png
 
-On the command line this action is equivalent to the ``git clone`` command.
+
+.. note::
+    
+    On the command line this action is equivalent to the ``git clone`` command.
 
 
 .. note::
@@ -170,12 +173,6 @@ On the file browser tab, you will now see a folder for the repository. Inside th
 
 .. figure:: img/jupyter_git_03.png
     width: 500
-
-Now you can create a new notebook or open an existing one and start working on the assignments!
-
-.. note::
-
-    During this course, we will most often start working with the assignments using an existing repository on GitHub which contains the assignment instructions and some starter code.
 
 
 Credentials
@@ -189,16 +186,18 @@ Git needs to know who you are in order to give you access to remote repositories
 
 Now you should see a new folder in JupyterLab that is identical to the repository on GitHub.
 
-On the command line, credentials can be managed using ``git config``.
 
-Git status
-~~~~~~~~~~
+.. note::
+    
+    On the command line, credentials can be managed using ``git config``.
 
-Navigate to the new folder in JupyterLab and activate the Git plugin. You should now see some basic info about your repository:
 
-.. figure:: img/git-plugin-status1.png
+Now you can create a new notebook or open an existing one and start working on the assignments!
 
-On the command line ``git status`` shows the status of the repository.
+.. note::
+
+    During this course, we will most often start working with the assignments using an existing repository on GitHub which contains the assignment instructions and some starter code.
+
 
 
 Add changes
@@ -206,29 +205,40 @@ Add changes
 
 Let's start making changes in the repository! Open the ``README.md`` file and make some edits. For example, add some text at the end of the file:
 
-.. figure:: img/edit-readme.png
-    :width: 750
+.. figure:: img/jupyter_git_04.png
+    :width: 700
 
     Edit a file in JupyterLab
 
-After saving your changes, check the status of the repository. You should see ``README.md`` listed under **Changed** files:
+Or you can add a new python notebook to the repository:
 
-.. figure:: img/git-plugin-changed.png
+.. figure:: img/jupyter_git_05.png
+    :width: 700
+
+    Create a new notebook in JupyterLab
+
+After saving your changes, check the status of the repository. You should see ``README.md`` listed under **Changed** files, and the new notebook under **Untracked** files:
+
+.. figure:: img/jupyter_git_06.png
     :width: 350
 
     Changes visible in the Git plugin
 
-These changes are not yet "staged for commit", which means that we need to add them first to the staging area if we want to make a permanent snapshot of these changes.
+These changes are not yet "staged for commit", which means that we need to add them first to the staging area. 
+Clicking the plus sign (+) moves the file from the “Untracked” heading to the “Staged” heading, so that Git knows you want a snapshot of its current state as a commit.
+
 
 .. figure:: img/git-plugin-stage-changes.png
     :width: 350
 
 After adding the changes, you should see the changed file under **Staged** in the Git plugin.
+Now you are ready to “commit” the changes. 
+Make sure to include a (clear and helpful!) message about what was changed so that your collaborators (and future you) know what happened in this commit.
 
-Note that you can also **unstage** and **discard changes** using the plugin.
-For now, we are happy with the changes made, and are ready to commit them.
 
-On the command line, ``git add`` is the command for adding changes to the staging area.
+.. note::
+    
+    On the command line, ``git add`` is the command for adding changes to the staging area.
 
 Commit changes
 ~~~~~~~~~~~~~~
