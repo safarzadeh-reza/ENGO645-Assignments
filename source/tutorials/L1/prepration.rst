@@ -230,26 +230,28 @@ These changes are not yet "staged for commit", which means that we need to add t
 Clicking the plus sign (+) moves the file from the “Untracked” heading to the “Staged” heading, so that Git knows you want a snapshot of its current state as a commit.
 
 
-.. figure:: img/git-plugin-stage-changes.png
-    :width: 350
+.. figure:: img/jupyter_git_06.png
+    :width: 500
 
 After adding the changes, you should see the changed file under **Staged** in the Git plugin.
-Now you are ready to “commit” the changes. 
-Make sure to include a (clear and helpful!) message about what was changed so that your collaborators (and future you) know what happened in this commit.
 
 
 .. note::
     
     On the command line, ``git add`` is the command for adding changes to the staging area.
 
+
+
 Commit changes
 ~~~~~~~~~~~~~~
 
-Once the changed files are in the staging area, we can create a permanent snapshot by committing the changes.
-Always remember to write an informative commit message to accompany your changes:
+Now you are ready to “commit” the changes. 
+Make sure to include a (clear and helpful!) message about what was changed so that your collaborators (and future you) know what happened in this commit.
+
+
 
 .. figure:: img/git-plugin-commit.png
-    :width: 300
+    :width: 500
 
 Once you hit the commit button, the plugin will most likely ask your name and email.
 
