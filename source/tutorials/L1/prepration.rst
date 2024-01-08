@@ -137,10 +137,12 @@ To install the Git extension in your JupyterLab environment, follow these steps:
 
 or with conda:
 
+
    ::
    
       conda install -c conda-forge jupyterlab jupyterlab-git
       jupyter lab build
+
 
 When you successfully installed the Git extension for JupyterLab, you should see a new Git icon in the left sidebar:
 
@@ -172,7 +174,7 @@ In our case, we want to **Clone a Repository**. Go ahead and paste your exercise
 On the file browser tab, you will now see a folder for the repository. Inside this folder will be all the files that existed on GitHub.
 
 .. figure:: img/jupyter_git_03.png
-    width: 500
+    :width: 500
 
 
 Credentials
