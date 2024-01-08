@@ -105,7 +105,7 @@ If you have not already verified your email address, make sure to do so in your 
 
 Now that we have created a personal access token, the next thing we need is the URL of your personal repository (that you learned how to create in previous section) from GitHub. 
 
-On GitHub, find the button :bdg-success:`Code` and copy the url under *HTTPS*.
+On GitHub, find the button :guilabel:`&Code` and copy the url under *HTTPS*.
 
 The URL looks something like this:
 ``https://github.com/safarzadeh-reza/engo645_test_repo.git`` but with your own username and repo name.
