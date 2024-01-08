@@ -222,7 +222,7 @@ Or you can add a new python notebook to the repository:
 After saving your changes, check the status of the repository. You should see ``README.md`` listed under **Changed** files, and the new notebook under **Untracked** files:
 
 .. figure:: img/jupyter_git_06.png
-    :width: 500
+    :width: 600
 
     Changes visible in the Git plugin
 
@@ -230,8 +230,8 @@ These changes are not yet "staged for commit", which means that we need to add t
 Clicking the plus sign (+) moves the file from the “Untracked” heading to the “Staged” heading, so that Git knows you want a snapshot of its current state as a commit.
 
 
-.. figure:: img/jupyter_git_06.png
-    :width: 500
+.. figure:: img/jupyter_git_07.png
+    :width: 600
 
 After adding the changes, you should see the changed file under **Staged** in the Git plugin.
 
@@ -251,7 +251,7 @@ Make sure to include a (clear and helpful!) message about what was changed so th
 
 
 .. figure:: img/git-plugin-commit.png
-    :width: 500
+    :width: 600
 
 Once you hit the commit button, the plugin will most likely ask your name and email.
 
