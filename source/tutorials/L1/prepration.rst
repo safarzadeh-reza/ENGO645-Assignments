@@ -86,6 +86,7 @@ If you have not already verified your email address, make sure to do so in your 
 
    .. image:: img/access_token_01.png
       :width: 700
+      
 
 #. Now we need to set the permissions, or scopes, that our token is granted. We are going to need it to be able to access and change our exercise repositories. For that, we can select the check boxes for **repo**, **admin:repo_hook**, and **delete_repo**.
 
@@ -105,7 +106,7 @@ If you have not already verified your email address, make sure to do so in your 
 
 Now that we have created a personal access token, the next thing we need is the URL of your personal repository (that you learned how to create in previous section) from GitHub. 
 
-On GitHub, find the button :guilabel:`&Code` and copy the url under *HTTPS*.
+On GitHub, find the button :guilabel:`<> Code` and copy the url under *HTTPS*.
 
 The URL looks something like this:
 ``https://github.com/safarzadeh-reza/engo645_test_repo.git`` but with your own username and repo name.
@@ -123,7 +124,20 @@ Clone a repository from GitHub
 During this course, we will most often start working with the exercises using an existing repository from GitHub.
 In order to get a copy of the exercise repository on our own computer (or the cloud computer), we need to ``clone`` it.
 
-Navigate to the **my-work** folder in JupyterLab, create a new folder inside it called **exercises**, and double-click to enter that folder. Next, activate the git-plugin. The plugin will tell you that **exercises** is not a Git repository and gives you some options.
+To install the Git extension in your JupyterLab environment, follow these steps:
+
+1. Open JupyterLab from Anaconda Navigator.
+2. On the main page, navigate to the Terminal.
+3. In the Terminal, enter the following code to install the Git extension:
+   
+   ::
+   
+      conda install conda-forge::jupyterlab-git
+
+
+
+Navigate to the **my-work** folder in JupyterLab, create a new folder inside it called **assignments**, and double-click to enter that folder. 
+Next, activate the git-plugin. The plugin will tell you that **assignments** is not a Git repository and gives you some options.
 
 In our case, we want to **Clone a Repository**:
 
