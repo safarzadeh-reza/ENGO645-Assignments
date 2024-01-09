@@ -129,23 +129,23 @@ To install the Git extension in your JupyterLab environment, follow these steps:
 2. On the main page, navigate to the Terminal.
 3. In the Terminal, enter the following code to install the Git extension:
    
-    .. code-block:: bash
-        
-        pip install --upgrade jupyterlab jupyterlab-git
-      
-    .. code-block:: bash
-        
-        jupyter lab build
-      
-    or with conda:
+.. code-block:: bash
+    
+    pip install --upgrade jupyterlab jupyterlab-git
+    
+.. code-block:: bash
+    
+    jupyter lab build
+    
+or with conda:
 
-    .. code-block:: bash
-        
-        conda install -c conda-forge jupyterlab jupyterlab-git
-      
-    .. code-block:: bash
-        
-        jupyter lab build
+.. code-block:: bash
+    
+    conda install -c conda-forge jupyterlab jupyterlab-git
+    
+.. code-block:: bash
+    
+    jupyter lab build
 
 
 When you successfully installed the Git extension for JupyterLab, you should see a new Git icon in the left sidebar:
@@ -153,6 +153,11 @@ When you successfully installed the Git extension for JupyterLab, you should see
 
 .. figure:: img/jupyter_git_02.png
     :width: 700
+
+
+.. note::
+
+    You might need to shut down JupyterLab and anaconda navigator and restart them for the Git extension to appear.
 
 
 Check here for more information on installing `JupyterLab Git extension <https://github.com/jupyterlab/jupyterlab-git>`__.
