@@ -135,7 +135,7 @@ To install the Git extension in your JupyterLab environment, follow these steps:
       jupyter lab build
 
 
-or with conda:
+    or with conda:
 
 
    ::
