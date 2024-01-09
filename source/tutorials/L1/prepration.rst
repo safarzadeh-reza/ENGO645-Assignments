@@ -285,7 +285,8 @@ Once the commit succeeds, you should see the latest set of changes under the His
 
     ``git pull``
 
-    Type your username, press enter, and go to the text file with your access token, copy it, and paste into your terminal with **Ctrl** + **v** and press **Enter**. Then your username and access token should be stored and you can pull and push to and from GitHub without having to type your access token every time.
+    Type your username, press enter, and go to the text file with your access token, copy it, and paste into your terminal with :kbd:`ctrl` + :kbd:`v` and press :kbd:`Enter`. 
+    Then your username and access token should be stored and you can pull and push to and from GitHub without having to type your access token every time.
 
 
 Push changes to GitHub
@@ -307,11 +308,12 @@ Now we are ready to push the local changes to GitHub using :code:`git push` (but
 
 .. figure:: img/git-plugin-push-ok.png
 
-Now you should see the updates in GitHub! Go and have a look at your personal repository in https://github.com/Geo-Python-2023/ .
+Now you should see the updates in GitHub! Go and have a look at your personal repository on the Github .
 
 On the command line, ``git pull`` fetches and merges changes from the remote repository, and ``git pull`` publishes local changes.
 
 That's all you need to know about Git for now :)
+
 
 Git from the command line
 -------------------------
@@ -394,24 +396,6 @@ The basic workflow of cloning a repository, adding changes to the staging area, 
     **Branches and branching** are powerful features in Git that allow maintaining parallel versions of the same project.
     During this course you don't need to worry too much about branches. However, it is good to understand that **we are working on the main branch of our repository**. For example, when using the ``git push`` command,
     the full syntax is ``git push origin main`` which means that we are pushing the changes to the main branch of the remote repository called origin. `Read more about git branches <https://git-scm.com/docs/git-branch>`__.
-
-
-Resolving conflicts
--------------------
-
-It is possible that you will encounter a **merge conflict** at some point of this course. A merge conflict might happen if two users have edited the same content, or if you
-yourself have edited the same content both on GitHub and locally without properly synchronizing the changes. In short, Git will tell you if it is not able to sort out the version history of your project by announcing a merge conflict.
-
-We won't cover how to solve merge conflicts in detail during the lessons. You can read more about `how to resolve merge conflicts from the Git documentation <https://git-scm.com/docs/git-merge#_how_to_resolve_conflicts>`__.
-**The best thing to do to avoid merge conflicts is to always Pull before you Push new changes.**
-In case you encounter a merge conflict, don't panic! Read carefully the message related to the merge conflict, and try searching for a solution online and ask for help on Slack.
-
-Remember that you can always download your files on your own computer, and upload them manually to GitHub like we did in Exercise 1!
-
-.. figure:: https://imgs.xkcd.com/comics/git.png
-    :alt: https://xkcd.com/1597/
-
-    Source: https://xkcd.com/1597/
 
 
 
