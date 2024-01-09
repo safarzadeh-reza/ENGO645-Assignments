@@ -231,7 +231,7 @@ Clicking the plus sign (+) moves the file from the “Untracked” heading to th
 
 
 .. figure:: img/jupyter_git_07.png
-    :width: 600
+    :width: 700
 
 After adding the changes, you should see the changed file under **Staged** in the Git plugin.
 
@@ -251,7 +251,7 @@ Make sure to include a (clear and helpful!) message about what was changed so th
 
 
 .. figure:: img/jupyter_git_08.png
-    :width: 600
+
 
 Once you hit the commit button, the plugin will most likely ask your name and email.
 
@@ -294,7 +294,7 @@ Push changes to GitHub
 
 Next, we want to synchronize our local changes with the remote repository on GitHub.
 
-.. figure:: img/jupyter_git_08.png
+.. figure:: img/jupyter_git_09.png
 
     Buttons for Pulling and Pushing changes between the local and remote repositories
 
