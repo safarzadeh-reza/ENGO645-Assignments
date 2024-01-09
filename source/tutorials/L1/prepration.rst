@@ -180,9 +180,9 @@ On the file browser tab, you will now see a folder for the repository. Inside th
 Credentials
 ~~~~~~~~~~~
 
-Git needs to know who you are in order to give you access to remote repositories.
+The plugin might ask you for credentials since Git needs to know who you are in order to give you access to remote repositories.
 
-**Insert your GitHub username and personal access token**:
+**Insert your GitHub username and personal access token (not your GitHub account password!)**:
 
 .. figure:: img/git-plugin-credentials.png
 
@@ -250,7 +250,7 @@ Make sure to include a (clear and helpful!) message about what was changed so th
 
 
 
-.. figure:: img/git-plugin-commit.png
+.. figure:: img/jupyter_git_08.png
     :width: 600
 
 Once you hit the commit button, the plugin will most likely ask your name and email.
@@ -261,13 +261,15 @@ You can insert the same details you used when signing up to GitHub.
 
 .. figure:: img/git-plugin-commit-ok.png
 
-Once the commit succeeds, you should see the latest set of changes under the History tab in the Git plugin:
-
-.. figure:: img/git-plugin-history1.png
+Once the commit succeeds, you should see the latest set of changes under the History tab in the Git plugin.
 
 *Note: You might also see some previous changes by the course instructors. These changes have been generated automatically and you can ignore them.*
 
-On the command line the syntax for committing is ``git commit -m "commit message"``. After committing, it is good practice to check the repository status using ``git status``.
+
+.. note::
+    
+    On the command line the syntax for committing is: ``git commit -m "commit message"``.
+
 
 .. note::
 
@@ -285,12 +287,13 @@ On the command line the syntax for committing is ``git commit -m "commit message
 
     Type your username, press enter, and go to the text file with your access token, copy it, and paste into your terminal with **Ctrl** + **v** and press **Enter**. Then your username and access token should be stored and you can pull and push to and from GitHub without having to type your access token every time.
 
+
 Push changes to GitHub
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Next, we want to synchronize our local changes with the remote repository on GitHub.
 
-.. figure:: img/git-plugin-pull-push-buttons.png
+.. figure:: img/jupyter_git_08.png
 
     Buttons for Pulling and Pushing changes between the local and remote repositories
 
