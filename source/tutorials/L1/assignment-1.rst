@@ -51,10 +51,10 @@ Part 3 - Start Kick-off Assignment on GitHub Classroom
 
 
 1. Start the coding assignment by accepting the GitHub Classroom assignment (click on the link above).
-2. Now you should be able to see one ``README.md`` file and one note book named ``Assignment-0.ipynb``in the new repository.
+2. Now you should be able to see one ``README.md`` file and one note book named ``Assignment-0.ipynb`` in the new repository.
 3. Read the instructions in both files in the repository. 
 4. Launch a new JupyterLab instance and clone your kick-off assignment repository to your computer.
-5. Cook up some Python according to the instructions in the ``Assignment-0.ipynb``!  *Remember to save your work ;) !*
+5. Cook up some Python according to the instructions in the ``Assignment-0.ipynb`` !  *Remember to save your work ;) !*
 6. Push your changes into your personal Kick-off Assignment repository using git.
 
 
