@@ -335,8 +335,6 @@ Terminal
 
 **Start a new Terminal session in JupyterLab** using the icon on the Launcher, or from *File* > *New* > *Terminal*.
 
-.. figure:: img/terminal-icon.png
-
 **Check if you have git installed** by typing :code:`git --version` in the terminal window:
 
 .. code-block:: bash
