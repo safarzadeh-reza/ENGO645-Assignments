@@ -31,7 +31,7 @@ Part 2 - D2L Setup and Dropbox Submission
 
 1. Ensure that you have access to the course's D2L (Desire2Learn) platform. If you encounter any issues accessing the platform despite being registered for the course, kindly reach out to the course instructor via email for assistance.
 2. Visit the **Dropbox** page available on the course D2L website.
-3. Submit  your **full name, GitHub username, and link to you GitHub profile** in the ``#week-1`` secion.
+3. Submit  your **full name, GitHub username, and link to your GitHub profile** in the ``Kick-off Assignment`` section.
 
 For example, ``Reza Safarzadeh, safarzadeh-reza, https://github.com/safarzadeh-reza``.
 
@@ -51,10 +51,11 @@ Part 3 - Start Kick-off Assignment on GitHub Classroom
 
 
 1. Start the coding assignment by accepting the GitHub Classroom assignment (click on the link above).
-2. Read the instructions from the repository.
-3. Launch a new JupyterLab instance and clone your assignment repository to your computer.
-4. Cook up some Python according to the instructions!  *Remember to save your work ;) !*
-5. Push your changes into your personal Kick-off Assignment repository using git.
+2. Now you should be able to see one ``README.md`` file and one note book named ``Assignment-0.ipynb``in the new repository.
+3. Read the instructions in both files in the repository. 
+4. Launch a new JupyterLab instance and clone your kick-off assignment repository to your computer.
+5. Cook up some Python according to the instructions in the ``Assignment-0.ipynb``!  *Remember to save your work ;) !*
+6. Push your changes into your personal Kick-off Assignment repository using git.
 
 
 .. note::
