@@ -118,6 +118,12 @@ The URL looks something like this:
 JupyterLab git plugin
 ---------------------
 
+.. admonition:: Install Git on your computer
+
+    You may first need to install `Git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`__ on your computer in order to use it.
+    You can follow the instructions for your operating system here: `Installing Git <https://phoenixnap.com/kb/how-to-install-git-windows>`__.
+
+
 Clone a repository from GitHub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
