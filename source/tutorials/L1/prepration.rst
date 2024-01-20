@@ -290,11 +290,11 @@ Once the commit succeeds, you should see the latest set of changes under the His
 
     We can **tell Git to remember our GitHub username and access token** to avoid typing them in all the time. Open up a Terminal window and type in this command:
 
-    ``git config --global credential.helper 'store --file /home/jovyan/my-work/.git-credentials'``
+    ``git config --global credential.helper 'store --file /home/rezas/my-work/.git-credentials'``
 
     Then change the folder you are in by typing (with your username):
 
-    ``cd exercises/exercise-1-davewhipp/``
+    ``cd assignments/engo645-test-repo/``
 
     We then pull from our GitHub repository:
 
@@ -366,7 +366,7 @@ Configuring Git credentials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Configure Git to remember your identity using the ``git config`` tools. You (hopefully) only need to do this once
-if working on your own computer, or on a cloud computer with persistent storage on CSC notebooks.
+if working on your own computer.
 
 .. code-block:: bash
 
