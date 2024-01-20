@@ -11,8 +11,9 @@ Moreover, we will learn how to use Folium library to visualize location-based da
     As mentioned in the first lecture of the course, this course requires basic knowledge of Python and Pandas library. 
     If you are not familiar with them, try catching up with the basics as fast as you can.
     Some useful resources are:
-    `Python for Data Analysis (3rd Edition, 2022) <https://wesmckinney.com/book/>`_.
-    `Pandas online documentation <https://pandas.pydata.org/docs/user_guide/dsintro.html/>`_.
+
+    - `Python for Data Analysis (3rd Edition, 2022) <https://wesmckinney.com/book/>`_.
+    - `Pandas online documentation <https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html>`_.
 
 
 Learning goals

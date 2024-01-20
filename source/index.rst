@@ -90,9 +90,9 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :caption: Assignment 1
 
     tutorials/L2/overview
+    tutorials/L2/libraries
     tutorials/L2/using_pandas
     tutorials/L2/plotting
-    tutorials/L2/libraries
     tutorials/L2/tasks
 
 
