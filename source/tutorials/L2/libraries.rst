@@ -12,6 +12,7 @@ However, we need to install a few more libraries for this tutorial.
     As far as you can edit python **Notebooks** and do the **version controling** with GitHub, you are good to go.
     You can use any IDE you like such as PyCharm, Spyder, VSCode, Google Colab, etc.
 
+
 General guide for installing packages with Conda
 ------------------------------------------------
 
@@ -40,7 +41,6 @@ You can **install other useful packages in a similar way:**
 
 .. code-block::
 
-    conda install -c conda-forge matplotlib
     conda install -c conda-forge bokeh
     conda install -c conda-forge geopandas
 
@@ -48,13 +48,6 @@ You can **install other useful packages in a similar way:**
 
     `Conda channels <https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html>`__ are remote locations where packages are stored.
     During this course (and in general when installing packages for scientific computing and GIS analysis) we download most packages from the `conda-forge <https://conda-forge.org/#about>`__ channel.
-
-
-.. admonition:: Conflicting packages
-
-    A good rule of thumb is to **always install packages from the same channel** (for this course, we prefer the `conda-forge` channel).
-    In case you encounter an error message when installing new packages, you might want to first check the versions and channels of existing
-    packages using the `conda list` command before trying again.
 
 
 Some of the useful packages for this course
