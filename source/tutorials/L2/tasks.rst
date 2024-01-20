@@ -2,7 +2,7 @@ Tasks - Assignment 1
 ==========
 
 .. important::
-    Assignment 1 is due by ** 23:59 on Sunday, January 4th, 2024**.
+    Assignment 1 is due by **23:59 on Sunday, January 4th, 2024**.
 
 
 
