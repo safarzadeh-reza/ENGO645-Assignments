@@ -8,6 +8,8 @@ We will also practice basic plotting with matplotlib library, to create meaningf
 Moreover, we will learn how to use Folium library to visualize location-based data on maps, improving our skills in map analysis.
 
 .. note::
+
+    These tutorials porpuse is only giving you some hints about completing the assignment tasks, not teaching the python programming step by step.
     As mentioned in the first lecture of the course, this course requires basic knowledge of Python and Pandas library. 
     If you are not familiar with them, try catching up with the basics as fast as you can.
     Some useful resources are:
