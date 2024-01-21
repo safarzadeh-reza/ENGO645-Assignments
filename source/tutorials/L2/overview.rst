@@ -1,15 +1,15 @@
 Overview
 =========
 
-This tutorial helps you with the data preparation and visualization using Python tools.
+This tutorial gives you some tips aboutthe data preparation and visualization using Python tools.
 
-We will go through the foundational steps of data preparation and basics of data preprocessing using Python's Pandas library. 
+We will go through the data preparation and basics of data preprocessing using Python's Pandas library. 
 We will also practice basic plotting with matplotlib library, to create meaningful visualizations and perform some exploratory data visualizations.
 Moreover, we will learn how to use Folium library to visualize location-based data on maps, improving our skills in map analysis.
 
 .. note::
 
-    These tutorials porpuse is only giving you some hints about completing the assignment tasks, not teaching the python programming step by step.
+    **These tutorials are meant to help you with assignment tasks by giving hints, not to teach Python programming in a detailed step-by-step manner.**
     As mentioned in the first lecture of the course, this course requires basic knowledge of Python and Pandas library. 
     If you are not familiar with them, try catching up with the basics as fast as you can.
     Some useful resources are:
