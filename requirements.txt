@@ -2,5 +2,6 @@ numpy
 matplotlib
 imageio
 pandas
+folium
 jupyter-offlinenotebook
 #jupyterlab-git  # Disabling jupyterlab-git for now as it hangs indefinitely
