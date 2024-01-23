@@ -10,6 +10,7 @@ git+https://github.com/jelmer/googleanalytics.git@master
 MyST-NB
 matplotlib
 pandas
+folium
 pandas-bokeh
 imageio
 nbconvert
