@@ -8,15 +8,11 @@ Tasks - Assignment 1
 
 .. admonition:: Start your assignment
 
-    **You can start working on your copy of Assignment 2 by** `accepting the GitHub Classroom assignment <https://classroom.github.com/a/s-mgkuwb>`__.
+    **You can start working on your copy of Assignment 2 by** `accepting the GitHub Classroom assignment <https://classroom.github.com/a/QTkgyLzj>`__.
 
 
-* **Note that code versioning is important and contributes to your overall grade. 
-* We expect to see your versioning history, including commits and pushes to the GitHub repository. 
-* Remember, having only one commit may result in a deduction in your marks, 
-* so make sure to maintain a clear and organized versioning record.**
-* **You don't have to submitt anything on D2L. 
-* Just push everything on the provided GitHub repository and that'a all**
+- **Note that code versioning is important and contributes to your overall grade. We expect to see your versioning history, including commits and pushes to the GitHub repository. Remember, having only one commit may result in a deduction in your marks, so make sure to maintain a clear and organized versioning record.**
+- **You don't have to submitt anything on D2L. Just push everything on the provided GitHub repository and that'a all!**
 
 
 
