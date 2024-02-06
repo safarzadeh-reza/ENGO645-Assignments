@@ -94,5 +94,10 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     notebooks/L2/using_pandas
     notebooks/L2/plotting
     tutorials/L2/tasks
+    
+.. toctree::
+    :maxdepth: 2
+    :caption: Assignment 2
 
+    tutorials/L3/tasks
 
