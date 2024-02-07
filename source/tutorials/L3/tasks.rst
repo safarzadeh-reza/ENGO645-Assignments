@@ -2,7 +2,7 @@ Tasks - Assignment 2
 ==========
 
 .. important::
-    Assignment 2 is due by **13:59 on Friday, February 19th, 2024. (Before starting of the Lecture Class on Feb 19th)**.
+    Assignment 2 is due by **13:59 on Monday, February 19th, 2024. (Before starting of the Lecture Class on Feb 19th)**.
 
 
 
