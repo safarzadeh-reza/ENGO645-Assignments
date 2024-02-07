@@ -4,5 +4,6 @@ imageio
 pandas
 folium
 mlxtend
+seaborn
 jupyter-offlinenotebook
 #jupyterlab-git  # Disabling jupyterlab-git for now as it hangs indefinitely

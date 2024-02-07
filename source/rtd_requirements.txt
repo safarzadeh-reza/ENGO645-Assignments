@@ -9,6 +9,7 @@ ipykernel
 git+https://github.com/jelmer/googleanalytics.git@master
 MyST-NB
 matplotlib
+seaborn
 pandas
 folium
 pandas-bokeh
