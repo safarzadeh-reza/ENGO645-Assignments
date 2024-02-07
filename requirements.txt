@@ -3,5 +3,6 @@ matplotlib
 imageio
 pandas
 folium
+mlxtend
 jupyter-offlinenotebook
 #jupyterlab-git  # Disabling jupyterlab-git for now as it hangs indefinitely

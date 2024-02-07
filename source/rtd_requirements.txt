@@ -12,6 +12,7 @@ matplotlib
 pandas
 folium
 pandas-bokeh
+mlxtend
 imageio
 nbconvert
 sphinxcontrib-youtube==1.2.0
