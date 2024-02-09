@@ -6,4 +6,5 @@ folium
 mlxtend
 seaborn
 jupyter-offlinenotebook
+geopandas
 #jupyterlab-git  # Disabling jupyterlab-git for now as it hangs indefinitely

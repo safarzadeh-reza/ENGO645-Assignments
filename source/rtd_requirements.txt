@@ -6,7 +6,7 @@ pydata-sphinx-theme
 IPython
 jupyter_client
 ipykernel
-git+https://github.com/jelmer/googleanalytics.git@master
+# git+https://github.com/jelmer/googleanalytics.git@master
 MyST-NB
 matplotlib
 seaborn
@@ -17,3 +17,4 @@ mlxtend
 imageio
 nbconvert
 sphinxcontrib-youtube==1.2.0
+geopandas
