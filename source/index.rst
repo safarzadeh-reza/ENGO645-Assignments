@@ -100,5 +100,6 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :caption: Assignment 2
 
     notebooks/L3/association_rules
+    notebooks/L3/geopandas
     tutorials/L3/tasks
 
