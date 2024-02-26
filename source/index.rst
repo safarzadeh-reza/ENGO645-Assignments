@@ -70,7 +70,7 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
 
 +-------------+--------------------------------------------+
 | Assignment  | Topic                                      |
-+=============+============================================+
++=======+==================================================+
 | **0** | (kick-off) Installing Python + Setting up GitHub |
 +-------+--------------------------------------------------+
 | **1** | Data preparation with pandas and Visualization   |
