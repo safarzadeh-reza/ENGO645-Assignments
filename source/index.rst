@@ -68,11 +68,21 @@ Each week, we'll explore different themes aligned with the course's essence, com
 Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout the winter semester. Look out for updated materials right here on our lab page to keep our lab adventures fresh and engaging.
 
 
-+-------+---------------------------------------+
-| Week  | Topic                                 |
-+=======+=======================================+
-| **1** | Installing Python + Setting up GitHub |
-+-------+---------------------------------------+
++-------------+--------------------------------------------+
+| Assignment  | Topic                                      |
++=============+============================================+
+| **0** | (kick-off) Installing Python + Setting up GitHub |
++-------+--------------------------------------------------+
+| **1** | Data preparation with pandas and Visualization   |
++-------+--------------------------------------------------+
+| **2** | Market Basket Analysis, Frequent Pattern Mining  |
++-------+--------------------------------------------------+
+| **3** | Classification and Spatial Analysis              |
++-------+--------------------------------------------------+
+| **4** | Spatial Clustering                               |
++-------+--------------------------------------------------+
+| **5** | (Optional) Spatial-Temporal Trajectory Mining    |
++-------+--------------------------------------------------+
 
 .. toctree::
     :maxdepth: 2
@@ -103,3 +113,8 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     notebooks/L3/geopandas
     tutorials/L3/tasks
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Assignment 3
+
+    tutorials/L4/tasks
