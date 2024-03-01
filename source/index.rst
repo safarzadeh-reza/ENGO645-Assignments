@@ -117,4 +117,5 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :maxdepth: 2
     :caption: Assignment 3
 
+    tutorials/L4/classification
     tutorials/L4/tasks
