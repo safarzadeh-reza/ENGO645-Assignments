@@ -124,7 +124,7 @@ You take pictures of each fruit and feed them into a computer program.
 The program learns to recognize different fruits based on their features like color, shape, and size. 
 So when you show it a new picture of a fruit, it can tell you if it's an apple, orange, banana, or any other fruit it's been trained on.
 
-.. figure:: img/supervised_learning.png
+.. figure:: img/supervised_learning.jpg
     
     Multi-Class Classification
 

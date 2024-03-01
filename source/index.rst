@@ -118,4 +118,5 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :caption: Assignment 3
 
     tutorials/L4/classification
+    notebooks/L4/classification_with_python
     tutorials/L4/tasks
