@@ -125,4 +125,5 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :maxdepth: 2
     :caption: Assignment 4
 
+    tutorials/L5/clustering
     tutorials/L5/tasks
