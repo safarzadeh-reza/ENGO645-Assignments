@@ -126,4 +126,5 @@ Our exciting journey spans 13 weeks, starting on January 8th, 2024, throughout t
     :caption: Assignment 4
 
     tutorials/L5/clustering
+    notebooks/L5/Clustering_Geospatial_Data
     tutorials/L5/tasks
