@@ -1,4 +1,4 @@
-Tasks - Assignment 4
+Tasks - Bonus Assignment
 ==========
 
 .. important::
@@ -12,7 +12,7 @@ Tasks - Assignment 4
 
 
 .. important::
-    1. **This Bonus Assignment has impact only on your total Assignments grading part your total grade. (Assignemtns in total comprise 30% of total course grade)**
+    1. **This Bonus Assignment has impact only on your total Assignments grading part of your total grade. (Assignemtns in total comprise 30% of total course grade)**
 
     2. **This is bonus assignment and we do not provide tutorials for bonus assignments.**
 
